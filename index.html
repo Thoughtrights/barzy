@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Barzy: the AV Signal Checker</title>
+<link rel="stylesheet" href="css/jquery-ui.min.css">
+<link rel="stylesheet" href="css/jquery-ui-slider-pips.css">
+<link rel="stylesheet" href="css/app.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<audio id="bounceLeft" src="assets/bounce-left.wav" preload="auto"></audio>
+<audio id="bounceRight" src="assets/bounce-right.wav" preload="auto"></audio>
+<audio id="bounceTopBottom" src="assets/bounce-topbottom.wav" preload="auto"></audio>
+<div class="marquee"><img class="logo" src="assets/barzy-boi" width="384" height="349" /></div>
+<div id="color-bars">
+  <div class="container">
+    <div class="grey-light"></div>
+    <div class="white"></div>
+    <div class="yellow"></div>
+    <div class="cyan"></div>
+    <div class="green"></div>
+    <div class="magenta"></div>
+    <div class="red"></div>
+    <div class="blue"></div>
+    <div class="grey-light"><p id="sliderText">Audio Level</p><p id="flat-slider"></p><input type="hidden" value="0" id="hiddenSliderValue"></div>
+  </div>
+  <div class="container" id="middle">
+    <div class="cyan middle"></div>
+    <div class="blue middle"></div>
+    <div class="middle wide white-to-grey"></div>
+    <div class="blue middle"></div>
+  </div>
+  <div class="container" id="middle-2">
+    <div class="yellow middle"></div>
+    <div class="purple middle"></div>
+    <div class="middle wide black-to-white"></div>
+    <div class="red middle"></div>
+  </div>
+  <div class="container" id="bottom">
+    <div class="grey-dark bottom"></div>
+    <div class="black-100 bottom wider"></div>
+    <div class="white-100 bottom widest"></div>
+    <div class="black-100 bottom wider"></div>
+    <div class="black bottom pluge"></div>
+    <div class="black-100 bottom pluge"></div>
+    <div class="grey bottom pluge"></div>
+    <div class="black-100 bottom"></div>
+    <div class="grey-dark bottom"></div>
+  </div>
+</div>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/jquery-ui-slider-pips.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
