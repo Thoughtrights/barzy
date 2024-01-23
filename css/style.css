@@ -103,7 +103,7 @@ input#volumeSlider{
     width: 80%;
     display: block;
     margin: auto;
-    accent-color: #28b6e7;
+    accent-color: #e8a028;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
@@ -115,36 +115,36 @@ p#sliderText {
     font-variant: small-caps;
     text-align: center;
     text-decoration: underline;
-    text-decoration-color: #324379;
-    color: #28b7e8;
+    text-decoration-color: #bbbbbb;
+    color: #e8a028;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 
 #flat-slider.ui-slider .ui-slider-pip .ui-slider-line {
-    background: #324278;
+    background: #bbbbbb;
     transition: all 0.8s ease-out;
 }
 
 #flat-slider.ui-slider .ui-slider-handle .ui-slider-tip:after {
-    border-left-color: #28b7e8;
+    border-left-color: #e8a028;
 }
 
 #flat-slider.ui-slider .ui-slider-handle.ui-state-hover, 
 #flat-slider.ui-slider .ui-slider-handle.ui-state-focus, 
 #flat-slider.ui-slider .ui-slider-handle.ui-state-active {
-    border-color: #324379;
+    border-color: #bbbbbb;
 }
 
 p#flat-slider {
-    border-left-color: #324278;
+    border-left-color: #bbbbbb;
     border-color: white;
-    background: #324379;
+    background: #bbbbbb;
 }
 
 #flat-slider .ui-slider-handle, #flat-slider .ui-slider-pip.ui-slider-pip-inrange .ui-slider-line, #flat-slider .ui-slider-pip[class*=ui-slider-pip-selected] .ui-slider-line, #flat-slider .ui-slider-range {
-    background-color: #28b7e8;
+    background-color: #e8a028;
 }
 
 
