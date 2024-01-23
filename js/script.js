@@ -26,7 +26,7 @@ $("#flat-slider")
 		var settings = $.extend({
 			horizontal: true,
 			vertical: true,
-			speed: 90, // In pixels per second
+			speed: 500, // In pixels per second
 			container: $(this).parent(),
 		        audioLeftId: document.getElementById('bounceLeft'),
 		        audioRightId: document.getElementById('bounceRight'),
@@ -108,7 +108,7 @@ $("#flat-slider")
 $(document).ready( function() {
 
 	$('.marquee').marqueeify({
-		speed: 250,
+		speed: 500,
 		bumpEdge: function () {
 			var newColor = "hsl(" + Math.floor(Math.random()*360) + ", 100%, 50%)";
 			$('.marquee .logo').css('fill', newColor);

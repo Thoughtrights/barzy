@@ -2,20 +2,30 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
+  <!-- Clay Webster, Thoughtrights.com (c) 2024 -->
   <title>Barzy: the AV Signal Checker</title>
+  <meta description="Barzy, the Audio-Video Signal Checker">
 <link rel="stylesheet" href="css/jquery-ui.min.css">
 <link rel="stylesheet" href="css/jquery-ui-slider-pips.css">
 <link rel="stylesheet" href="css/app.min.css">
 <link rel="stylesheet" href="css/style.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1DSDMD83ER"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1DSDMD83ER');
+</script>
 </head>
 <body>
 <audio id="bounceLeft" src="assets/bounce-left.wav" preload="auto"></audio>
 <audio id="bounceRight" src="assets/bounce-right.wav" preload="auto"></audio>
 <audio id="bounceTopBottom" src="assets/bounce-topbottom.wav" preload="auto"></audio>
-<div class="marquee"><img class="logo" src="assets/barzy-boi" width="384" height="349" /></div>
+<div class="marquee"><img class="logo" src="assets/barzy-boi-trans.png" width="384" height="349" /></div>
 <div id="color-bars">
   <div class="container">
-    <div class="grey-light"></div>
+    <div class="grey-light"><p id="sliderText">Audio Level</p><p id="flat-slider"></p><input type="hidden" value="0" id="hiddenSliderValue"></div>
     <div class="white"></div>
     <div class="yellow"></div>
     <div class="cyan"></div>
@@ -23,7 +33,7 @@
     <div class="magenta"></div>
     <div class="red"></div>
     <div class="blue"></div>
-    <div class="grey-light"><p id="sliderText">Audio Level</p><p id="flat-slider"></p><input type="hidden" value="0" id="hiddenSliderValue"></div>
+    <div class="grey-light"></div>
   </div>
   <div class="container" id="middle">
     <div class="cyan middle"></div>
