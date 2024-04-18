@@ -1,5 +1,3 @@
-# barzy
-
 # barzy: the AV signal checker
 
 Barzy provides a simple color bar page for video production and audio
